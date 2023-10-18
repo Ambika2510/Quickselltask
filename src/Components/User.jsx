@@ -42,7 +42,9 @@ const User = ({ users, tickets }) => {
               alignItems: "center",
             }}
           >
-            <CgProfile style={{ marginRight: "7px", color: "blue" }} />{" "}
+            <CgProfile
+              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+            />{" "}
             <h3>
               {" "}
               {users[0].name} {u0.length}
@@ -91,7 +93,9 @@ const User = ({ users, tickets }) => {
               alignItems: "center",
             }}
           >
-            <CgProfile style={{ marginRight: "7px", color: "blue" }} />{" "}
+            <CgProfile
+              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+            />{" "}
             <h3>
               {" "}
               {users[1].name} {u1.length}
@@ -140,7 +144,9 @@ const User = ({ users, tickets }) => {
               alignItems: "center",
             }}
           >
-            <CgProfile style={{ marginRight: "7px", color: "blue" }} />{" "}
+            <CgProfile
+              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+            />{" "}
             <h3>
               {" "}
               {users[2].name} {u2.length}
@@ -189,7 +195,9 @@ const User = ({ users, tickets }) => {
               alignItems: "center",
             }}
           >
-            <CgProfile style={{ marginRight: "7px", color: "blue" }} />{" "}
+            <CgProfile
+              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+            />{" "}
             <h3>
               {" "}
               {users[3].name} {u3.length}
@@ -238,7 +246,9 @@ const User = ({ users, tickets }) => {
               alignItems: "center",
             }}
           >
-            <CgProfile style={{ marginRight: "7px", color: "blue" }} />{" "}
+            <CgProfile
+              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+            />{" "}
             <h3>
               {" "}
               {users[4].name} {u4.length}

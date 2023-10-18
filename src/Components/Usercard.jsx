@@ -12,7 +12,7 @@ const Usercard = ({ status, title, tag, id }) => {
         backgroundColor: "white",
         margin: "8px",
         borderRadius: "10px",
-        height: "100px",
+        minHeight: "110px",
         position: "relative",
         width: "100%",
       }}

@@ -52,7 +52,7 @@ const Home = () => {
     // console.log(grouping);
   };
   return (
-    <div>
+    <div className="Home">
       <Navbar
         funpriority={funpriority}
         funstatus={funstatus}

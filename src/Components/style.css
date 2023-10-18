@@ -3,6 +3,7 @@
     margin-top: 1px;
     padding: 12px;
     min-height: 40px;
+    width: 100%
 }
 
 .navbar button {
@@ -18,6 +19,7 @@
     display: inline-grid;
     width: 100%;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 100%;
 }
 
 .priority {
@@ -25,5 +27,10 @@
     padding: 5px;
     display: inline-grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 100%;
+}
+
+.Home {
     width: 100%
+    /* overflow: hidden; */
 }

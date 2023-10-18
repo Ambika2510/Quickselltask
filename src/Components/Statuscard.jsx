@@ -9,7 +9,7 @@ const Statuscard = ({ id, title, tag }) => {
         backgroundColor: "white",
         margin: "8px",
         borderRadius: "10px",
-        height: "100px",
+        minHeight: "110px",
         position: "relative",
         width: "100%",
       }}
@@ -26,7 +26,7 @@ const Statuscard = ({ id, title, tag }) => {
           {id}
         </h3>
         <CgProfile
-          style={{ marginRight: "3px", fontWeight: "bold", fontSize: "" }}
+          style={{ marginRight: "3px", fontWeight: "bold", fontSize: "22px" }}
         />
       </div>
       <div>
