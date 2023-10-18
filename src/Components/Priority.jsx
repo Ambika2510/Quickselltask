@@ -235,9 +235,13 @@ const Priority = ({ tickets }) => {
               alignItems: "center",
             }}
           >
-            <LuSignalLow style={{ marginRight: "7px", color: "black" }} />{" "}
+            <div>
+              <LuSignalLow
+                style={{ marginRight: "7px", color: "black" }}
+              />
+            </div>
             <h3>Low {p4.length}</h3>
-          </div>{" "}
+          </div>
           <div
             style={{
               display: "flex",

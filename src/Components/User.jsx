@@ -43,7 +43,7 @@ const User = ({ users, tickets }) => {
             }}
           >
             <CgProfile
-              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+              style={{ marginRight: "7px", fontSize: "22px" }}
             />{" "}
             <h3>
               {" "}
@@ -94,7 +94,7 @@ const User = ({ users, tickets }) => {
             }}
           >
             <CgProfile
-              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+              style={{ marginRight: "7px", fontSize: "22px" }}
             />{" "}
             <h3>
               {" "}
@@ -145,7 +145,7 @@ const User = ({ users, tickets }) => {
             }}
           >
             <CgProfile
-              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+              style={{ marginRight: "7px", fontSize: "22px" }}
             />{" "}
             <h3>
               {" "}
@@ -196,7 +196,7 @@ const User = ({ users, tickets }) => {
             }}
           >
             <CgProfile
-              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+              style={{ marginRight: "7px", fontSize: "22px" }}
             />{" "}
             <h3>
               {" "}
@@ -247,7 +247,7 @@ const User = ({ users, tickets }) => {
             }}
           >
             <CgProfile
-              style={{ marginRight: "7px", color: "blue", fontSize: "22px" }}
+              style={{ marginRight: "7px", fontSize: "22px" }}
             />{" "}
             <h3>
               {" "}

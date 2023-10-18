@@ -34,9 +34,11 @@ const Statuscard = ({ id, title, tag }) => {
           style={{
             marginTop: "4px",
             marginLeft: "2px",
-            marginRight: "2px",
+            marginRight: "3px",
             fontSize: "15px",
             fontWeight: "800",
+            textAlign:"justify",
+            
           }}
         >
           {title}

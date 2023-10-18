@@ -32,37 +32,70 @@ const Prioritycard = ({ id, title, tag, status }) => {
           style={{ marginRight: "3px", fontWeight: "bold", fontSize: "22px" }}
         />
       </div>
-      <div style={{ display: "flex", alignItems: "center" }}>
-        {status === "In progress" ? (
-          <TbProgressBolt
-            style={{ marginRight: "1px", marginLeft: "4px", color: "orange" }}
-          />
-        ) : status === "Todo" ? (
-          <BsCircle
-            style={{ marginRight: "1px", marginLeft: "4px", color: "grey" }}
-          />
-        ) : status === "Backlog" ? (
-          <MdOutlineSmsFailed
-            style={{ marginRight: "1px", marginLeft: "4px", color: "blue" }}
-          />
-        ) : status === "Done" ? (
-          <AiOutlineCheckCircle
-            style={{ marginRight: "1px", marginLeft: "4px", color: "green" }}
-          />
-        ) : status === "Cancelled" ? (
-          <MdOutlineCancel
-            style={{ marginRight: "1px", marginLeft: "4px", color: "red" }}
-          />
-        ) : (
-          ""
-        )}
+      <div style={{ display: "flex", alignContent: "center" }}>
+        <div>
+          {status === "In progress" ? (
+            <TbProgressBolt
+              style={{
+                marginRight: "1px",
+                marginLeft: "4px",
+                color: "orange",
+                height: "30px",
+                width: "15px",
+              }}
+            />
+          ) : status === "Todo" ? (
+            <BsCircle
+              style={{
+                marginRight: "1px",
+                marginLeft: "4px",
+                color: "grey",
+                height: "30px",
+                width: "15px",
+              }}
+            />
+          ) : status === "Backlog" ? (
+            <MdOutlineSmsFailed
+              style={{
+                marginRight: "1px",
+                marginLeft: "4px",
+                color: "blue",
+                height: "30px",
+                width: "15px",
+              }}
+            />
+          ) : status === "Done" ? (
+            <AiOutlineCheckCircle
+              style={{
+                marginRight: "1px",
+                marginLeft: "4px",
+                color: "green",
+                height: "30px",
+                width: "15px",
+              }}
+            />
+          ) : status === "Cancelled" ? (
+            <MdOutlineCancel
+              style={{
+                marginRight: "1px",
+                marginLeft: "4px",
+                color: "red",
+                height: "30px",
+                width: "15px",
+              }}
+            />
+          ) : (
+            ""
+          )}
+        </div>
         <h3
           style={{
             marginTop: "4px",
             marginLeft: "2px",
-            marginRight: "2px",
+            marginRight: "3px",
             fontSize: "15px",
             fontWeight: "800",
+            textAlign:"justify"
           }}
         >
           {title}
