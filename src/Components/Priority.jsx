@@ -5,10 +5,14 @@ import Prioritycard from "./Prioritycard";
 import { BsThreeDots } from "react-icons/bs";
 import { AiOutlinePlus } from "react-icons/ai";
 
-import { LuSignalHigh } from "react-icons/lu";
-import { PiCellSignalMedium } from "react-icons/pi";
-import { LuSignalLow } from "react-icons/lu";
+import {
+  PiCellSignalFullBold,
+  PiCellSignalHighBold,
+  PiCellSignalMediumBold,
+} from "react-icons/pi";
+
 import { MdOutlineSmsFailed } from "react-icons/md";
+
 const Priority = ({ tickets }) => {
   let p0 = [];
   let p1 = [];
@@ -141,7 +145,9 @@ const Priority = ({ tickets }) => {
               alignItems: "center",
             }}
           >
-            <LuSignalHigh style={{ marginRight: "7px", color: "black" }} />{" "}
+            <PiCellSignalFullBold
+              style={{ marginRight: "7px", color: "black" }}
+            />{" "}
             <h3>High {p2.length}</h3>
           </div>{" "}
           <div
@@ -187,7 +193,7 @@ const Priority = ({ tickets }) => {
               alignItems: "center",
             }}
           >
-            <PiCellSignalMedium
+            <PiCellSignalHighBold
               style={{ marginRight: "7px", color: "black" }}
             />{" "}
             <h3>Medium {p3.length}</h3>
@@ -236,7 +242,7 @@ const Priority = ({ tickets }) => {
             }}
           >
             <div>
-              <LuSignalLow
+              <PiCellSignalMediumBold
                 style={{ marginRight: "7px", color: "black" }}
               />
             </div>
